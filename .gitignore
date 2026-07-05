@@ -1,0 +1,43 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Flutter/Dart
+apartment_rental/.dart_tool/
+apartment_rental/.flutter-plugins
+apartment_rental/.flutter-plugins-dependencies
+apartment_rental/.packages
+apartment_rental/.pub-cache/
+apartment_rental/.pub/
+apartment_rental/build/
+apartment_rental/.idea/
+apartment_rental/*.iml
+
+# Node.js
+backend/node_modules/
+backend/.next/
+backend/out/
+backend/build/
+backend/.env
+backend/.env.local
+apartment_rental/server/node_modules/
+
+# Database
+backend/*.db
+backend/*.sqlite
+apartment_rental/server/*.db
+apartment_rental/server/*.sqlite
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+

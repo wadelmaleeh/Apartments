@@ -1,0 +1,19 @@
+{
+  "name": "apartment-rental-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "next": "^15.3.3",
+    "pdfmake": "^0.3.11",
+    "pg": "^8.13.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "uuid": "^11.1.0"
+  }
+}
