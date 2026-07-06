@@ -1,24 +1,25 @@
 # 📦 Releases
 
-## Latest Release - v1.1.0 🚀
+## Latest Release - v2.0.0 🚀
 
-### 🆕 What's New in v1.1.0
-- ✨ Connected to production Vercel deployment
-- 🌐 No need to run local backend server
-- 🔄 Automatic cloud sync
-- 📱 Production-ready build
+### 🆕 What's New in v2.0.0
+- ✨ **Always connected** to production Vercel deployment
+- 🌐 Works with `flutter run` and production builds
+- 🔄 No localhost required - everything on cloud
+- 📱 Unified configuration for all environments
+- ☁️ 100% cloud-based backend
 
 ### Android APK
-**File:** `apartment-rental-v1.1.0.apk`  
+**File:** `apartment-rental-v2.0.0.apk`  
 **Size:** 57.9 MB  
 **Min SDK:** Android 6.0 (API 24) or higher  
-**Backend:** https://apartments-sd.vercel.app
+**Backend:** https://apartments-sd.vercel.app ☁️
 
 ### Windows Desktop
-**File:** `apartment-rental-windows-v1.1.0.zip`  
-**Size:** ~40 MB (uncompressed)  
+**File:** `apartment-rental-windows-v2.0.0.zip`  
+**Size:** ~17 MB (compressed)  
 **OS:** Windows 10/11 (64-bit)  
-**Backend:** https://apartments-sd.vercel.app
+**Backend:** https://apartments-sd.vercel.app ☁️
 
 ---
 
@@ -27,7 +28,7 @@
 ### 📱 Android
 
 1. **Download the APK:**
-   - Click on `apartment-rental-v1.1.0.apk` above
+   - Click on `apartment-rental-v2.0.0.apk` above
    - Click the "Download" button
 
 2. **Enable Unknown Sources:**
@@ -42,7 +43,7 @@
 ### 💻 Windows
 
 1. **Download the ZIP:**
-   - Click on `apartment-rental-windows-v1.1.0.zip`
+   - Click on `apartment-rental-windows-v2.0.0.zip`
    - Extract the ZIP file to a folder
 
 2. **Run:**
@@ -99,9 +100,14 @@
 
 For local development with `flutter run`:
 
-1. **Configure for localhost:**
-   - The app automatically uses `http://localhost:3000` in debug mode
-   - No code changes needed!
+**v2.0.0 uses Vercel by default!** No local backend needed.
+
+If you want to use a local backend for testing:
+
+1. **Update API config:**
+   - Open `apartment_rental/lib/services/api_config.dart`
+   - Uncomment `developmentUrl`
+   - Change `baseUrl` to `developmentUrl`
 
 2. **Start local backend:**
    ```bash
@@ -116,9 +122,10 @@ For local development with `flutter run`:
    flutter run
    ```
 
-The app intelligently switches between:
-- **Debug/Development:** `http://localhost:3000`
-- **Release builds:** `https://apartments-sd.vercel.app`
+**Current Configuration:**
+- All builds use: `https://apartments-sd.vercel.app`
+- No localhost setup required
+- Works immediately after `flutter run`
 
 ---
 
@@ -140,10 +147,14 @@ The app intelligently switches between:
 
 ## Previous Versions
 
-### v1.0.0 (Localhost)
+### v1.1.0 (Conditional Vercel)
+- Release builds used Vercel
+- Debug builds used localhost
+- Required local backend for development
+
+### v1.0.0 (Localhost only)
 - Initial release with local backend support
-- **File:** `apartment-rental-v1.0.0.apk`
-- **Backend:** Required local server at `http://localhost:3000`
+- Required local server at `http://localhost:3000`
 
 ---
 

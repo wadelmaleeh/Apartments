@@ -74,31 +74,31 @@ Users can download directly from the `releases/` folder:
    - https://github.com/wadelmaleeh/Apartments/tree/master/releases
 
 2. **Download APK:**
-   - Click on `apartment-rental-v1.1.0.apk`
+   - Click on `apartment-rental-v2.0.0.apk`
    - Click the "Download" button (top right)
    - Or use raw URL:
      ```
-     https://github.com/wadelmaleeh/Apartments/raw/master/releases/apartment-rental-v1.1.0.apk
+     https://github.com/wadelmaleeh/Apartments/raw/master/releases/apartment-rental-v2.0.0.apk
      ```
 
 3. **Download Windows ZIP:**
-   - Click on `apartment-rental-windows-v1.1.0.zip`
+   - Click on `apartment-rental-windows-v2.0.0.zip`
    - Click the "Download" button
    - Or use raw URL:
      ```
-     https://github.com/wadelmaleeh/Apartments/raw/master/releases/apartment-rental-windows-v1.1.0.zip
+     https://github.com/wadelmaleeh/Apartments/raw/master/releases/apartment-rental-windows-v2.0.0.zip
      ```
 
 ### Direct Download Links (Copy & Share)
 
 **Android APK:**
 ```
-https://github.com/wadelmaleeh/Apartments/raw/master/releases/apartment-rental-v1.1.0.apk
+https://github.com/wadelmaleeh/Apartments/raw/master/releases/apartment-rental-v2.0.0.apk
 ```
 
 **Windows Desktop:**
 ```
-https://github.com/wadelmaleeh/Apartments/raw/master/releases/apartment-rental-windows-v1.1.0.zip
+https://github.com/wadelmaleeh/Apartments/raw/master/releases/apartment-rental-windows-v2.0.0.zip
 ```
 
 ---
